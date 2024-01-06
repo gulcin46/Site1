@@ -1,0 +1,11 @@
+body {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+}
+
+#header nav a {
+  color: #b92828;
+}
+#header nav h1 {
+  color: #ae3131;
+}/*# sourceMappingURL=style.css.map */
