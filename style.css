@@ -3,10 +3,25 @@ body {
   font-weight: 500;
 }
 
-header {
-  padding: 30px 0 0 0;
+header .box {
+  padding: 0px 0px 10px 0px;
+  border: 2px solid black;
+  width: 1625px;
+  height: 100px;
+  background-color: #212529;
 }
-header .imgbox {
+header .box .imgbox {
   width: 187px;
   height: 100px;
+}
+header .box nav a {
+  color: red;
+}
+
+#welcome .box {
+  background-image: url("../../../assests/home.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 900px;
 }/*# sourceMappingURL=style.css.map */
