@@ -3,9 +3,10 @@ body {
   font-weight: 500;
 }
 
-#header nav a {
-  color: #b92828;
+header {
+  padding: 30px 0 0 0;
 }
-#header nav h1 {
-  color: #ae3131;
+header .imgbox {
+  width: 187px;
+  height: 100px;
 }/*# sourceMappingURL=style.css.map */
