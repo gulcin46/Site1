@@ -63,4 +63,8 @@ header .menu nav a {
 #welcome .box .btn:hover {
   cursor: pointer;
   background-color: #d9aa00;
+}
+
+#services h1 {
+  color: red;
 }/*# sourceMappingURL=style.css.map */
