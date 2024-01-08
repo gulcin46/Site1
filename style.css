@@ -3,17 +3,17 @@ body {
   font-weight: 500;
 }
 
-header .box {
-  padding: 30px 0px 0px 0px;
+header .menu {
   position: fixed;
-  height: 100px;
+  bottom: 0;
+  right: 0;
 }
-header .box .imgbox {
+header .menu .imgbox {
   width: 187px;
   height: 100px;
 }
-header .box nav a {
-  color: red;
+header .menu nav a {
+  margin-right: 30px;
 }
 
 #welcome .box {
