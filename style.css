@@ -27,4 +27,12 @@ header .menu nav a {
   background-position: center;
   background-repeat: no-repeat;
   height: 750px;
+}
+#welcome .box .textbox h1 {
+  color: white;
+  font-weight: 300;
+  font-size: 46px;
+  position: relative;
+  top: 264px;
+  left: 568px;
 }/*# sourceMappingURL=style.css.map */
