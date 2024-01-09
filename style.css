@@ -71,7 +71,14 @@ header .menu nav a {
 #services h1 {
   font-weight: 700;
   font-size: 50px;
+  margin: 4px 18px 14px 0px;
 }
 #services h2 {
   font-size: 22px;
+}
+#services .imgbox {
+  background-color: yellow;
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
 }/*# sourceMappingURL=style.css.map */
