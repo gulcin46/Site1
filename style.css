@@ -2,11 +2,16 @@ body {
   font-family: "Dosis", sans-serif;
   font-weight: 500;
 }
-body .imgbox {
+
+.imgbox {
   overflow: hidden;
 }
-body img {
+.imgbox img {
   width: 100%;
+}
+
+section {
+  padding: 40px 0px 50px 0px;
 }
 
 header .menu {
@@ -113,6 +118,8 @@ header .menu nav a {
 
 #portfolio {
   background-color: #d2d6de;
+  width: 1554px;
+  height: 1188px;
 }
 #portfolio h1 {
   font-size: 35px;
@@ -124,4 +131,25 @@ header .menu nav a {
   height: 414px;
   background-color: #ffffff;
   margin: 28px 0px 0px 0px;
+}
+#portfolio .box .textbox {
+  text-align: center;
+}
+#portfolio .box .textbox h2 {
+  font-weight: 700;
+  font-size: 30px;
+  margin: 15px 0px 10px 0px;
+}
+#portfolio .box .textbox h3 {
+  font-size: 20px;
+  color: #8b8686;
+}
+
+#about h2 {
+  font-weight: 700;
+  font-size: 40px;
+}
+#about h3 {
+  font-size: 20px;
+  margin: 10px 0px 0px 0px;
 }/*# sourceMappingURL=style.css.map */
