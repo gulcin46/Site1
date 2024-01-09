@@ -65,6 +65,13 @@ header .menu nav a {
   background-color: #d9aa00;
 }
 
+#services {
+  padding: 100px 0px 0px 0px;
+}
 #services h1 {
-  color: red;
+  font-weight: 700;
+  font-size: 50px;
+}
+#services h2 {
+  font-size: 22px;
 }/*# sourceMappingURL=style.css.map */
