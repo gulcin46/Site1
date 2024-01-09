@@ -2,6 +2,12 @@ body {
   font-family: "Dosis", sans-serif;
   font-weight: 500;
 }
+body .imgbox {
+  overflow: hidden;
+}
+body img {
+  width: 100%;
+}
 
 header .menu {
   position: fixed;
@@ -25,7 +31,6 @@ header .menu nav a {
   background-image: url("../../../assests/home.jpg");
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
   height: 750px;
 }
 #welcome .box .textbox h1 {
@@ -71,14 +76,37 @@ header .menu nav a {
 #services h1 {
   font-weight: 700;
   font-size: 50px;
-  margin: 4px 18px 14px 0px;
 }
 #services h2 {
   font-size: 22px;
 }
-#services .imgbox {
-  background-color: yellow;
-  border-radius: 50px;
-  width: 100px;
-  height: 100px;
+#services .box {
+  position: relative;
+  left: 109px;
+}
+#services .box .imgbox {
+  margin: 61px 2px 14px 0px;
+  background-color: #ffc800;
+  border-radius: 70px;
+  width: 120px;
+  height: 120px;
+}
+#services .box .imgbox i {
+  margin: 40px 0 0 29px;
+  font-size: 50px;
+  color: white;
+}
+#services .box .textbox {
+  width: 361px;
+  height: 137px;
+}
+#services .box .textbox h1 {
+  font-weight: 600;
+  font-size: 20px;
+}
+#services .box .textbox h2 {
+  position: relative;
+  right: 120px;
+  font-size: 18px;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
