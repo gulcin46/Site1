@@ -41,7 +41,7 @@ header .menu nav a {
   height: 750px;
 }
 #welcome .box .textbox h1 {
-  color: white;
+  color: #ffffff;
   font-weight: 300;
   font-size: 39px;
   position: relative;
@@ -78,7 +78,7 @@ header .menu nav a {
 }
 
 #services {
-  padding: 100px 0px 0px 0px;
+  padding: 50px 0px 0px 0px;
 }
 #services h1 {
   font-weight: 700;
@@ -92,16 +92,16 @@ header .menu nav a {
   left: 109px;
 }
 #services .box .imgbox {
-  margin: 61px 2px 14px 0px;
+  margin: 53px 2px 14px 0px;
   background-color: #ffc800;
-  border-radius: 70px;
-  width: 120px;
-  height: 120px;
+  border-radius: 87px;
+  width: 135px;
+  height: 133px;
 }
 #services .box .imgbox i {
-  margin: 40px 0 0 29px;
-  font-size: 50px;
-  color: white;
+  margin: 31px 0 0 18px;
+  font-size: 80px;
+  color: #ffffff;
 }
 #services .box .textbox {
   width: 361px;
@@ -109,7 +109,8 @@ header .menu nav a {
 }
 #services .box .textbox h1 {
   font-weight: 600;
-  font-size: 20px;
+  font-size: 28px;
+  margin: 21px 0px 13px 1px;
 }
 #services .box .textbox h2 {
   position: relative;
