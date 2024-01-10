@@ -120,14 +120,17 @@ header .menu nav a {
 }
 
 #portfolio {
-  background-color: #d2d6de;
+  background-color: #f8f9fa;
   width: 1819px;
   height: 1188px;
 }
 #portfolio h1 {
-  font-size: 35px;
+  font-size: 45px;
   font-weight: 700;
-  margin: 10px 17px 4px 0px;
+  margin: 63px 17px 4px 0px;
+}
+#portfolio h2 {
+  font-size: 19px;
 }
 #portfolio .box {
   width: 408px;
