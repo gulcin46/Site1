@@ -36,41 +36,43 @@ header .menu nav a {
   background-image: url("../../../assests/home.jpg");
   background-size: cover;
   background-position: center;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
   height: 750px;
 }
-#welcome .textbox h1 {
+#welcome .box .textbox h1 {
   color: white;
   font-weight: 300;
-  font-size: 46px;
+  font-size: 39px;
   position: relative;
-  top: 264px;
-  left: 568px;
+  top: 226px;
+  left: 759px;
 }
-#welcome .textbox2 h2 {
+#welcome .box .textbox2 h2 {
   color: white;
   font-weight: 700;
-  font-size: 90px;
+  font-size: 95px;
   position: relative;
-  top: 295px;
-  left: 340px;
+  top: 266px;
+  left: 545px;
 }
-#welcome .btn {
+#welcome .box .btn {
   border: 1px solid #ffc800;
   width: 222px;
   height: 68px;
   position: relative;
-  top: 342px;
-  left: 657px;
+  top: 320px;
+  left: 843px;
   background-color: #ffc800;
   transition: 2s;
 }
-#welcome .btn h3 {
+#welcome .box .btn h3 {
   text-align: center;
   font-size: 20px;
   margin: 12px 0px 0px 0px;
   color: white;
 }
-#welcome .btn:hover {
+#welcome .box .btn:hover {
   cursor: pointer;
   background-color: #d9aa00;
 }
@@ -118,7 +120,7 @@ header .menu nav a {
 
 #portfolio {
   background-color: #d2d6de;
-  width: 1554px;
+  width: 1819px;
   height: 1188px;
 }
 #portfolio h1 {
