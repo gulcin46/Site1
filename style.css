@@ -162,6 +162,9 @@ header .menu nav a {
 #about .textbox, #about .textbox2 {
   width: 420px;
   height: 162px;
+  position: relative;
+  left: 146px;
+  top: 58px;
 }
 #about .textbox h1, #about .textbox h2, #about .textbox2 h1, #about .textbox2 h2 {
   font-size: 29px;
