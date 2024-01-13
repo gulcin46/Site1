@@ -164,18 +164,18 @@ header .menu nav a {
   height: 162px;
   line-height: 30px;
 }
+#about .textbox h1, #about .textbox h2, #about .textbox2 h1, #about .textbox2 h2 {
+  font-size: 29px;
+  font-weight: 700;
+}
+#about .textbox h3, #about .textbox2 h3 {
+  font-size: 20px;
+  text-align: center;
+}
 #about .textbox {
   position: relative;
   left: 146px;
   top: 58px;
-}
-#about .textbox h1, #about .textbox h2 {
-  font-size: 29px;
-  font-weight: 700;
-}
-#about .textbox h3 {
-  font-size: 20px;
-  text-align: center;
 }
 #about .box, #about .box2 {
   width: 158px;
@@ -201,4 +201,16 @@ header .menu nav a {
   position: relative;
   left: 560px;
   top: 90px;
+}
+#about .box2 .end {
+  background-color: yellow;
+}
+#about .box2 .end h1 {
+  font-size: 36px;
+  font-weight: 700;
+}
+#about .textbox2 {
+  position: relative;
+  left: 747px;
+  top: 80px;
 }/*# sourceMappingURL=style.css.map */
