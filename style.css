@@ -203,12 +203,13 @@ header .menu nav a {
   top: 90px;
 }
 #about .box2 .end {
-  background-color: yellow;
+  background-color: #ffc800;
 }
 #about .box2 .end h1 {
   font-size: 36px;
   font-weight: 700;
   margin-top: 33px;
+  color: #ffffff;
 }
 #about .textbox2 {
   position: relative;
