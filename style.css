@@ -215,4 +215,30 @@ header .menu nav a {
   position: relative;
   left: 747px;
   top: 80px;
+}
+
+#team {
+  background-color: #c6b5b5;
+}
+#team h1 {
+  font-weight: 700;
+  font-size: 55px;
+}
+#team h3 {
+  font-size: 22px;
+}
+#team .box {
+  width: 234px;
+  height: 241px;
+  background-color: #c6b5b5;
+  border-radius: 156px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#team .box .imgbox {
+  border-radius: 171px;
+  width: 214px;
+  height: 221px;
+  margin: 12px 0px 0px 0px;
 }/*# sourceMappingURL=style.css.map */
