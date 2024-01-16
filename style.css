@@ -151,6 +151,9 @@ header .menu nav a {
   color: #8b8686;
 }
 
+#about {
+  width: 1828px;
+}
 #about h2 {
   font-weight: 700;
   font-size: 40px;
@@ -218,6 +221,8 @@ header .menu nav a {
 }
 
 #team {
+  width: 1828px;
+  height: 683px;
   background-color: #c6b5b5;
 }
 #team h1 {
