@@ -246,4 +246,11 @@ header .menu nav a {
   width: 214px;
   height: 221px;
   margin: 12px 0px 0px 0px;
+}
+
+#logo .imgbox {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
 }/*# sourceMappingURL=style.css.map */
