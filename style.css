@@ -253,4 +253,14 @@ header .menu nav a {
   height: 100px;
   display: flex;
   justify-content: center;
+}
+
+#form {
+  background-image: url("../../../assests/map-image.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-color: black;
+  height: 750px;
 }/*# sourceMappingURL=style.css.map */
