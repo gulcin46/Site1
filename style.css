@@ -53,12 +53,12 @@ header .menu nav a:hover {
   color: #ffc800;
 }
 #welcome {
-  background-image: url("../../../assests/home.jpg");
+  background-image: url("/assests/home.jpg");
+  background-position: center center;
   background-size: cover;
-  background-position: center;
-  background-attachment: scroll;
-  background-repeat: no-repeat;
-  height: 750px;
+}
+#welcome .box {
+  height: 700px;
 }
 #welcome .box .textbox h1 {
   color: #ffffff;
