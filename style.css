@@ -58,32 +58,25 @@ header .menu nav a:hover {
   background-size: cover;
 }
 #welcome .box {
-  height: 700px;
+  height: 750px;
 }
 #welcome .box .textbox h1 {
   color: #ffffff;
   font-weight: 300;
   font-size: 39px;
-  position: relative;
-  top: 226px;
-  left: 759px;
 }
-#welcome .box .textbox2 h2 {
+#welcome .box .textbox h2 {
   color: white;
-  font-weight: 700;
   font-size: 95px;
-  position: relative;
-  top: 266px;
-  left: 545px;
+  font-weight: 700;
+  margin: 23px 1px 15px 0px;
 }
 #welcome .box .btn {
   border: 1px solid #ffc800;
-  width: 222px;
-  height: 68px;
-  position: relative;
-  top: 320px;
-  left: 843px;
+  padding: 13px 60px;
   background-color: #ffc800;
+  font-size: 24px;
+  font-weight: 700;
   transition: 2s;
 }
 #welcome .box .btn h3 {
