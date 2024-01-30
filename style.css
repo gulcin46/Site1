@@ -52,6 +52,42 @@ header .menu nav a {
 header .menu nav a:hover {
   color: #ffc800;
 }
+@media screen and (max-width: 576px) {
+  header .menu {
+    height: 70px;
+  }
+  header .menu .btn {
+    margin-right: 10px;
+    padding: 6px 10px;
+  }
+  header .menu .imgbox {
+    margin-left: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  header .menu nav {
+    display: none;
+  }
+  header .menu .btn {
+    display: flex;
+    margin-right: 30px;
+  }
+  header .menu .imgbox {
+    margin-left: 20px;
+  }
+}
+@media screen and (max-width: 992px) {
+  header .menu nav {
+    margin-right: 55px;
+  }
+  header .menu nav a {
+    margin: 0 10px;
+  }
+  header .menu .imgbox {
+    margin-left: 40px;
+  }
+}
+
 #welcome {
   background-image: url("/assests/home.jpg");
   background-position: center center;
@@ -66,7 +102,7 @@ header .menu nav a:hover {
   font-size: 39px;
 }
 #welcome .box .textbox h2 {
-  color: white;
+  color: #ffffff;
   font-size: 95px;
   font-weight: 700;
   margin: 23px 1px 15px 0px;
@@ -87,41 +123,6 @@ header .menu nav a:hover {
 #welcome .box .btn:hover {
   cursor: pointer;
   background-color: #d9aa00;
-}
-@media screen and (max-width: 576px) {
-  #welcome .menu {
-    height: 70px;
-  }
-  #welcome .menu .btn {
-    margin-right: 10px;
-    padding: 6px 10px;
-  }
-  #welcome .menu .imgbox {
-    margin-left: 20px;
-  }
-}
-@media screen and (max-width: 768px) {
-  #welcome .menu nav {
-    display: none;
-  }
-  #welcome .menu .btn {
-    display: flex;
-    margin-right: 30px;
-  }
-  #welcome .menu .imgbox {
-    margin-left: 20px;
-  }
-}
-@media screen and (max-width: 992px) {
-  #welcome .menu nav {
-    margin-right: 55px;
-  }
-  #welcome .menu nav a {
-    margin: 0 10px;
-  }
-  #welcome .menu .imgbox {
-    margin-left: 40px;
-  }
 }
 
 #services {

@@ -14,7 +14,7 @@ header
             margin-left: 120px
         .btn
             color: #ffffff
-            border: 1px solid grey    
+            border: 1px solid grey
             padding: 2px
             opacity: 0.5
             display: none
@@ -22,7 +22,7 @@ header
                 border: 5px solid grey
             h5
                 font-size: 17px
-                cursor: pointer    
+                cursor: pointer
         nav
             margin-right: 100px
             a
@@ -31,9 +31,28 @@ header
                 cursor: pointer
                 &:hover
                     color: #ffc800
-    @media screen and ( max-width:992)
-    @media screen and ( max-width: 768)
-    @media screen and ( max-width: 992 )
-            
-            
-                 
+    @media screen and ( max-width: 576px )
+        .menu
+            height: 70px
+            .btn
+                margin-right: 10px
+                padding: 6px 10px
+            .imgbox
+                margin-left: 20px
+    @media screen and ( max-width: 768px )
+        .menu
+            nav
+                display: none
+            .btn
+                display: flex
+                margin-right: 30px
+            .imgbox
+                margin-left: 20px
+    @media screen and ( max-width: 992px )
+        .menu
+            nav
+                margin-right: 55px
+                a
+                    margin: 0 10px
+            .imgbox
+                margin-left: 40px
