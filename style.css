@@ -124,6 +124,14 @@ header .menu nav a:hover {
   cursor: pointer;
   background-color: #d9aa00;
 }
+@media screen and (max-width: 576px) {
+  #welcome .box .textbox h1 {
+    font-size: 35px;
+  }
+  #welcome .box .textbox h2 {
+    font-size: 70px;
+  }
+}
 
 #services {
   padding: 50px 0px 0px 0px;
