@@ -144,8 +144,8 @@ header .menu nav a:hover {
   font-size: 22px;
 }
 #services .box {
-  position: relative;
-  left: 109px;
+  display: flex;
+  justify-content: center;
 }
 #services .box .imgbox {
   margin: 53px 2px 14px 0px;
@@ -159,10 +159,6 @@ header .menu nav a:hover {
   font-size: 80px;
   color: #ffffff;
 }
-#services .box .textbox {
-  width: 361px;
-  height: 137px;
-}
 #services .box .textbox h1 {
   font-weight: 600;
   font-size: 28px;
@@ -173,6 +169,76 @@ header .menu nav a:hover {
   right: 120px;
   font-size: 18px;
   text-align: center;
+}
+@media screen and (max-width: 992px) {
+  #services .box {
+    margin: 0 0 100px 0;
+    align-items: flex-start;
+  }
+  #services .box .textbox {
+    width: 190px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #services .box {
+    align-items: flex-start;
+    flex-direction: row-reverse;
+    margin: 0 0 70px 0;
+  }
+  #services .box .textbox {
+    width: 400px;
+    text-align: start;
+  }
+  #services .box .imgbox {
+    width: 140px;
+    height: auto;
+    margin: 0;
+  }
+  #services .right {
+    margin: 0 0 70px 0;
+    flex-direction: row;
+  }
+  #services .right .textbox {
+    text-align: start;
+  }
+  #services .yellow {
+    justify-content: flex-start;
+  }
+  #services .yellow .story {
+    width: 140px;
+    height: 140px;
+  }
+  #services .yellow .story .minibox {
+    padding: 0 30px;
+  }
+}
+@media screen and (max-width: 576px) {
+  #services .text-center h1 {
+    font-size: 50px;
+  }
+  #services .text-center h3 {
+    font-size: 18px;
+  }
+  #services .box .imgbox {
+    width: 140px;
+    height: auto;
+  }
+  #services .box .textbox h2, #services .box .textbox h4 {
+    font-size: 25px;
+  }
+  #services .box .textbox p {
+    font-size: 18px;
+  }
+  #services .yellow .story {
+    width: 100px;
+    height: 100px;
+  }
+  #services .yellow .story .minibox {
+    padding: 0 15px;
+  }
+  #services .yellow .story .minibox h2 {
+    font-size: 18px;
+  }
 }
 
 #portfolio {

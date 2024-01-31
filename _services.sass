@@ -8,8 +8,8 @@
     .box
         // margin: 4px 18px 14px 0px
             // margin-bottom: 60px
-        position: relative
-        left: 109px
+        display: flex
+        justify-content: center
 
         .imgbox
             margin: 53px 2px 14px 0px
@@ -24,8 +24,8 @@
                 color: #ffffff
 
         .textbox
-            width: 361px
-            height: 137px
+            // width: 361px
+            // height: 137px
             h1
                 font-weight: 600
                 font-size: 28px
@@ -35,3 +35,63 @@
                 right: 120px
                 font-size: 18px
                 text-align: center
+    @media screen and ( max-width: 992px )
+        .box
+            margin: 0 0 100px 0
+            align-items: flex-start
+            .textbox
+                width: 190px
+
+    @media screen and ( max-width: 768px )
+        // .text-center
+        //     h1
+        //         font-size: 55px
+        //     h3
+        //         font-size: 18px
+        .box
+            align-items: flex-start
+            flex-direction: row-reverse
+            margin: 0 0 70px 0
+            .textbox
+                width: 400px
+                text-align: start
+            .imgbox
+                width: 140px
+                height: auto
+                margin: 0
+        .right
+            margin: 0 0 70px 0
+            flex-direction: row
+            .textbox
+                text-align: start
+        .yellow
+            justify-content: flex-start
+            .story
+                width: 140px
+                height: 140px
+                .minibox
+                    padding: 0 30px
+
+    @media screen and ( max-width: 576px )
+        .text-center
+            h1
+                font-size: 50px
+            h3
+                font-size: 18px
+        .box
+            .imgbox
+                width: 140px
+                height: auto
+            .textbox
+                h2,h4
+                    font-size: 25px
+                p
+                    font-size: 18px
+        .yellow
+            .story
+                width: 100px
+                height: 100px
+                .minibox
+                    padding: 0 15px
+                    h2
+                        font-size: 18px
